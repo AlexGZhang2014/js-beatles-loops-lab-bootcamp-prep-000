@@ -5,3 +5,13 @@ function theBeatlesPlay(arrMusic, arrInst) {
   }
   return array;
 }
+
+function johnLennonFacts(arrFacts) {
+  let count = 0;
+  let array = [];
+  while (count < arrFacts.length) {
+    array.push(`${arrFacts[count]}!!!`);
+    count++;
+  }
+  return array;
+}
